@@ -1,4 +1,4 @@
-# Video Confreence Folder Structure (Step 1)
+# Video Conference Folder Structure (Step 1)
 
 ```text
 .

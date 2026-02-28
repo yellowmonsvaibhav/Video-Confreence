@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "Video Confreence",
-    "slug": "video-confreence",
-    "scheme": "videoconfreence",
+    "name": "Video Conference",
+    "slug": "video-conference",
+    "scheme": "videoconference",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
@@ -18,12 +18,12 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.yourcompany.videoconfreence",
+      "bundleIdentifier": "com.videoconference.app",
       "infoPlist": {
-        "NSCameraUsageDescription": "Video Confreence needs camera access for video meetings.",
-        "NSMicrophoneUsageDescription": "Video Confreence needs microphone access for audio in meetings.",
-        "NSCalendarsUsageDescription": "Video Confreence syncs your meetings with Google Calendar.",
-        "NSPhotoLibraryUsageDescription": "Video Confreence lets you upload images and files in chat."
+        "NSCameraUsageDescription": "Video Conference needs camera access for video meetings.",
+        "NSMicrophoneUsageDescription": "Video Conference needs microphone access for audio in meetings.",
+        "NSCalendarsUsageDescription": "Video Conference syncs your meetings with Google Calendar.",
+        "NSPhotoLibraryUsageDescription": "Video Conference lets you upload images and files in chat."
       }
     },
     "android": {
@@ -31,14 +31,14 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#0F172A"
       },
-      "package": "com.yourcompany.videoconfreence",
+      "package": "com.videoconference.app",
       "permissions": [
         "android.permission.CAMERA",
         "android.permission.RECORD_AUDIO",
         "android.permission.READ_CALENDAR",
         "android.permission.WRITE_CALENDAR",
         "android.permission.POST_NOTIFICATIONS",
-        "android.permission.READ_EXTERNAL_STORAGE"
+        "android.permission.READ_MEDIA_IMAGES"
       ]
     },
     "web": {
@@ -69,9 +69,6 @@
     "extra": {
       "router": {
         "origin": false
-      },
-      "eas": {
-        "projectId": "REPLACE_WITH_EAS_PROJECT_ID"
       }
     },
     "experiments": {
